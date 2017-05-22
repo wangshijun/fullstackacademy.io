@@ -17,7 +17,7 @@ class SiteNav extends React.Component {
             </Link>
           </li>
           <li>
-            <Link to={prefixLink('/feweekly')} activeClassName="current"> 前端周刊
+            <Link to={prefixLink('/feweekly/')} activeClassName="current"> 前端周刊
             </Link>
           </li>
           <li>
