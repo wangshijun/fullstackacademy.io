@@ -392,7 +392,6 @@ progress {
 	vertical-align: baseline;
 }
 blockquote {
-	font-style: italic;
 	padding-left: 1.4375rem;
 }
 @media screen and (min-width:40em) {

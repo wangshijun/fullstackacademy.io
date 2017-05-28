@@ -22,8 +22,8 @@ class SiteIndex extends React.Component {
 
         pageLinks.push((
           <div className="blog-post" key={title}>
-            <time dateTime={moment(datePublished).format('MMMM D, YYYY')}>
-              {moment(datePublished).format('MMMM YYYY')}
+            <time dateTime={moment(datePublished).format('YYYY年MM月DD日')}>
+              {moment(datePublished).format('YYYY年MM月DD日')}
             </time>
             <span style={{ padding: '5px' }} />
             <span className="blog-category">{category}</span>

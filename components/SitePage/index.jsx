@@ -13,7 +13,7 @@ class SitePage extends React.Component {
         <div className="content">
           <div className="main">
             <div className="main-inner">
-              <div className="blog-page">
+              <div className="markdown-body blog-page">
                 <div className="text">
                   <h1>{post.title}</h1>
                   <div dangerouslySetInnerHTML={{ __html: post.body }} />

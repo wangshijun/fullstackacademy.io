@@ -1,5 +1,5 @@
 ---
-title: "用 husky 和 lint-staged 构建超溜的代码检查工作流"
+title: "用 lint-staged 构建超溜的代码检查工作流"
 date: "2017-05-24T22:12:03.284Z"
 layout: post
 path: "/make-lint-great-again/"
