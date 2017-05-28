@@ -3,6 +3,7 @@ import React from 'react';
 import '../static/css/reset.css';
 import '../static/css/typography.css';
 import '../static/css/base.css';
+import '../static/css/github-markdown.css';
 
 class Template extends React.Component {
   render() {

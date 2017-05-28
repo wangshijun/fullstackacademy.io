@@ -13,14 +13,14 @@ class SitePost extends React.Component {
     const post = route.page.data;
     const home = (
       <div>
-        <Link className="gohome" to={prefixLink('/')}>All Articles</Link>
+        <Link className="gohome" to={prefixLink('/')}>文章列表</Link>
       </div>
     );
 
     return (
       <div>
         {home}
-        <div className="blog-single">
+        <div className="markdown-body blog-single">
           <div className="text">
             <h1>{post.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: post.body }} />
