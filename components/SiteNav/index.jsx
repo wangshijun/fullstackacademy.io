@@ -13,7 +13,7 @@ class SiteNav extends React.Component {
             </Link>
           </li>
           <li>
-            <Link to={prefixLink('/toolingbits')} activeClassName="current"> 奇技淫巧
+            <Link to={prefixLink('/toolingbits/')} activeClassName="current"> 奇技淫巧
             </Link>
           </li>
           <li>
