@@ -1,53 +1,54 @@
 import React from 'react';
 import { config } from 'config';
 import './style.css';
-import '../../static/fonts/fontawesome/style.css';
 
 class SiteLinks extends React.Component {
   render() {
     return (
       <div className="blog-links">
         <ul>
-          {config.siteTwitterUrl && (
+          {config.siteZhihuUrl && (
             <li>
-              <a href={config.siteTwitterUrl}>
-                <i className="fa fa-twitter" />
+              <a target="_blank" href={config.siteZhihuUrl}>
+                <img src={require('./img/zhihu.png')} width="30" height="30" />
               </a>
             </li>
           )}
+          {config.siteJuejinUrl && (
+            <li>
+              <a target="_blank" href={config.siteJuejinUrl}>
+                <img src={require('./img/juejin.png')} width="30" height="30" />
+              </a>
+            </li>
+          )}
+          {config.siteJianshuUrl && (
+            <li>
+              <a target="_blank" href={config.siteJianshuUrl}>
+                <img src={require('./img/jianshu.png')} width="30" height="30" />
+              </a>
+            </li>
+          )}
+        </ul>
+        <ul>
           {config.siteGithubUrl && (
             <li>
-              <a href={config.siteGithubUrl}>
-                <i className="fa fa-github-alt" />
+              <a target="_blank" href={config.siteGithubUrl}>
+                <img src={require('./img/github.png')} width="30" height="30" />
               </a>
             </li>
           )}
-          {config.siteVkUrl && (
+          {config.siteSegmentfaultUrl && (
             <li>
-              <a href={config.siteVkUrl}><i className="fa fa-vk" /></a>
+              <a target="_blank" href={config.siteSegmentfaultUrl}>
+                <img src={require('./img/segmentfault.png')} width="30" height="30" />
+              </a>
             </li>
           )}
-        </ul>
-        <ul>
           {config.siteEmailUrl && (
             <li>
-              <a href={`mailto:${config.siteEmailUrl}`}>
-                <i className="fa fa-envelope-o" />
+              <a target="_blank" href={config.siteEmailUrl}>
+                <img src={require('./img/gmail.png')} width="30" height="30" />
               </a>
-            </li>
-          )}
-          {config.siteTelegramUrl && (
-            <li>
-              <a href={config.siteTelegramUrl}>
-                <i className="fa fa-paper-plane" />
-              </a>
-            </li>
-          )}
-        </ul>
-        <ul>
-          {config.siteRssUrl && (
-            <li>
-              <a href={config.siteRssUrl}><i className="fa fa-rss" /></a>
             </li>
           )}
         </ul>

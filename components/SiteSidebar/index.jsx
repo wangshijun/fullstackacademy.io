@@ -17,16 +17,25 @@ class SiteSidebar extends React.Component {
       <header>
         <Link style={{ textDecoration: 'none', borderBottom: 'none', outline: 'none' }} to={prefixLink('/')}>
           <img
+            className="avatar"
             src={profilePic}
-            width="75" height="75"
+            width="75"
+            height="75"
             style={{ border: '1px solid #DDDDDD' }}
             alt="Profile picture of the author"
           />
         </Link>
-        { isHome ? (
-          <h1><Link style={{ textDecoration: 'none', borderBottom: 'none', color: 'inherit' }} to={prefixLink('/')}> {config.siteAuthor}</Link></h1>
-        ) :
-          <h2><Link style={{ textDecoration: 'none', borderBottom: 'none', color: 'inherit' }} to={prefixLink('/')}> {config.siteAuthor}</Link></h2> }
+        {isHome
+          ? <h1>
+              <Link style={{ textDecoration: 'none', borderBottom: 'none', color: 'inherit' }} to={prefixLink('/')}>
+                {' '}{config.siteAuthor}
+              </Link>
+            </h1>
+          : <h2>
+              <Link style={{ textDecoration: 'none', borderBottom: 'none', color: 'inherit' }} to={prefixLink('/')}>
+                {' '}{config.siteAuthor}
+              </Link>
+            </h2>}
         <p>
           {config.siteDescr}
         </p>
@@ -47,7 +56,7 @@ class SiteSidebar extends React.Component {
             <footer>
               <SiteLinks {...this.props} />
               <p className="copyright">
-                &copy; 版权所有
+                © 版权所有
               </p>
             </footer>
           </div>
@@ -62,4 +71,3 @@ SiteSidebar.propTypes = {
 };
 
 export default SiteSidebar;
-

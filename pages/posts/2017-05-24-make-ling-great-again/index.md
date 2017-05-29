@@ -3,6 +3,7 @@ title: "用 lint-staged 构建超溜的代码检查工作流"
 date: "2017-05-24T22:12:03.284Z"
 layout: post
 path: "/posts/make-lint-great-again/"
+cover: "/posts/make-lint-great-again/baby-shocked.jpg"
 category: "tooling"
 description: "具备基本工程素养的同学都会注重编码规范，而代码风格检查（Code Linting，简称 Lint）是保障代码规范一致性的重要手段，你的工作流中有 Lint 环节么？有的话你用的爽么？你在团队中推广过 Lint，但是大家都不买账？究竟是为啥？"
 ---
@@ -158,7 +159,3 @@ yarn add --dev lint-staged
 ## 总结
 
 有人说前端攻城狮是世界上最奇怪的动物，提交代码时用 prettier 把代码排版的很美观，但部署上线时又使用 uglify 把代码压缩的连亲妈都不认了，事实是，如果我们写出来的代码本来就很丑陋，就根本不需要用 uglify。希望读到这里的你能把 Lint 工作流打磨到极致，把更多时间专注在解决真正的问题上，成为真正高效的工程师。
-
-## One More Thing
-
-本文作者王仕军，商业转载请联系作者获得授权，非商业转载请注明出处。如果你觉得本文对你有帮助，请点赞！如果对文中的内容有任何疑问，欢迎留言讨论。想知道我接下来会写些什么？欢迎订阅我的[掘金专栏](https://juejin.im/user/57a7f634d342d300576b738d)或[知乎专栏](https://zhuanlan.zhihu.com/feweekly)：《前端周刊：让你在前端领域跟上时代的脚步》。

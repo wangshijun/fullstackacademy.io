@@ -9,12 +9,10 @@
 }
 .blog-links ul > li {
 	float: left;
-	margin-right: 5px;
+	margin: 5px;
 	text-align: center;
-	height: 24px;
-	width: 24px;
-	border-radius: 3px;
-	background: #f4f4f4;
+	height: 30px;
+	width: 30px;
 }
 .blog-links ul > li:hover {
 	background: #f4f4f4;
