@@ -11,8 +11,8 @@
 	float: left;
 	margin: 5px;
 	text-align: center;
-	height: 30px;
-	width: 30px;
+	height: 25px;
+	width: 25px;
 }
 .blog-links ul > li:hover {
 	background: #f4f4f4;

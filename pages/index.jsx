@@ -23,6 +23,7 @@ class SiteIndex extends React.Component {
 
         pageLinks.push(
           <div className="blog-post" key={title}>
+            <h2><Link style={{ borderBottom: 'none' }} to={prefixLink(page.path)}>{title}</Link></h2>
             {!!coverImage &&
               <Link style={{ borderBottom: 'none' }} to={prefixLink(page.path)}>
                 <img
@@ -34,7 +35,6 @@ class SiteIndex extends React.Component {
                   height="200px"
                 />
               </Link>}
-            <h2><Link style={{ borderBottom: 'none' }} to={prefixLink(page.path)}>{title}</Link></h2>
             <p dangerouslySetInnerHTML={{ __html: description }} />
             <time dateTime={moment(datePublished).format('YYYY年MM月DD日')}>
               {moment(datePublished).format('YYYY年MM月DD日')}

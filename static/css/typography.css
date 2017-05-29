@@ -122,7 +122,6 @@ code, kbd, pre, samp {
 code {
 	padding: 26px;
 	padding: 1.625rem;
-	display: block;
 }
 @media screen and (min-width:40em) {
 	code {

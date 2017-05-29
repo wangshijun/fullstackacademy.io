@@ -3,55 +3,23 @@ import { config } from 'config';
 import './style.css';
 
 class SiteLinks extends React.Component {
+  renderRow(items) {
+    return items.map(x => (
+      <li>
+        <a href={config[`${x}Url`]}>
+          <img src={require(`./img/${x}.png`)} width="25" height="25" />
+        </a>
+      </li>
+    ));
+  }
+
   render() {
+    const row1 = ['juejin', 'zhihu', 'jianshu'];
+    const row2 = ['wechat', 'gmail', 'github'];
     return (
       <div className="blog-links">
-        <ul>
-          {config.siteZhihuUrl && (
-            <li>
-              <a target="_blank" href={config.siteZhihuUrl}>
-                <img src={require('./img/zhihu.png')} width="30" height="30" />
-              </a>
-            </li>
-          )}
-          {config.siteJuejinUrl && (
-            <li>
-              <a target="_blank" href={config.siteJuejinUrl}>
-                <img src={require('./img/juejin.png')} width="30" height="30" />
-              </a>
-            </li>
-          )}
-          {config.siteJianshuUrl && (
-            <li>
-              <a target="_blank" href={config.siteJianshuUrl}>
-                <img src={require('./img/jianshu.png')} width="30" height="30" />
-              </a>
-            </li>
-          )}
-        </ul>
-        <ul>
-          {config.siteGithubUrl && (
-            <li>
-              <a target="_blank" href={config.siteGithubUrl}>
-                <img src={require('./img/github.png')} width="30" height="30" />
-              </a>
-            </li>
-          )}
-          {config.siteSegmentfaultUrl && (
-            <li>
-              <a target="_blank" href={config.siteSegmentfaultUrl}>
-                <img src={require('./img/segmentfault.png')} width="30" height="30" />
-              </a>
-            </li>
-          )}
-          {config.siteEmailUrl && (
-            <li>
-              <a target="_blank" href={config.siteEmailUrl}>
-                <img src={require('./img/gmail.png')} width="30" height="30" />
-              </a>
-            </li>
-          )}
-        </ul>
+        <ul>{this.renderRow(row1)}</ul>
+        <ul>{this.renderRow(row2)}</ul>
       </div>
     );
   }
