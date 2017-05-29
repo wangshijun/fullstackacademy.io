@@ -2,7 +2,7 @@
 title: "用 lint-staged 构建超溜的代码检查工作流"
 date: "2017-05-24T22:12:03.284Z"
 layout: post
-path: "/make-lint-great-again/"
+path: "/posts/make-lint-great-again/"
 category: "tooling"
 description: "具备基本工程素养的同学都会注重编码规范，而代码风格检查（Code Linting，简称 Lint）是保障代码规范一致性的重要手段，你的工作流中有 Lint 环节么？有的话你用的爽么？你在团队中推广过 Lint，但是大家都不买账？究竟是为啥？"
 ---

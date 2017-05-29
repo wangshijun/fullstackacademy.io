@@ -1,14 +1,14 @@
 ---
 title: "前端周刊"
 layout: page
-path: "/feweekly"
+path: "/weekly/"
 ---
 
 > 前端周刊，让你在前端领域跟上时代的脚步！聚焦最新的文章、教程、工具、框架、视频，由资深前端工程师为你精选精编。给大家提供的内容除了每周一期的资讯聚合之外，还会有不定期的文章翻译，技术干货放送。
 
 ## 往届周刊
 
-* [前端周刊第56期：应接不暇的技术大会](issues/Issue-56.md)
+* [前端周刊第56期：应接不暇的技术大会](/weekly/56-forever-going-tech-conferences)
 * [前端周刊第55期：10X 程序员？](issues/Issue-55.md)
 * [前端周刊第54期：Prepack 引发社区小高潮](issues/Issue-54.md)
 * [前端周刊第53期：React 社区的撕逼](issues/Issue-53.md)

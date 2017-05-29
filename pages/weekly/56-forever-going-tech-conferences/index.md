@@ -1,10 +1,8 @@
 ---
 title: "前端周刊第56期：应接不暇的技术大会"
 layout: page
-path: "/feweekly/56-forever-going-tech-conferences"
+path: "/weekly/56-forever-going-tech-conferences"
 ---
-
-## 前端周刊第56期：应接不暇的技术大会
 
 > WannaCry 病毒的事情我们就不在这里扯了，本周各科技公司、技术社区的大会真是让人应接不暇，<a href="https://events.google.com/io/schedule/?section=may-17">Google IO</a>、<a href="https://build.microsoft.com/">MicroSoft Build</a>、<a href="https://www.react-europe.org/#day-2017-May-17">React Europe</a>、<a href="https://juejin.im/post/591fa2d0a0bb9f005f3ccd1b">Vue Conf</a>，每个里面都有不少前端工具、框架、演进方向的干货，好学的你怎么错过？下面是本周精选内容，请享用。
 
